@@ -1,0 +1,27 @@
+May 19 14:30:57.655 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+May 19 14:30:57.655 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40599.
+May 19 14:30:57.665 HYPERVISOR: exec_cmd: hypervisor version 
+May 19 14:30:57.665 HYPERVISOR: exec_cmd: hypervisor working_dir /home/francisco/GNS3/projects/entregalab14/project-files/dynamips 
+May 19 14:30:57.665 GENERAL: working_dir=/home/francisco/GNS3/projects/entregalab14/project-files/dynamips
+May 19 14:30:57.665 HYPERVISOR: exec_cmd: hypervisor working_dir /home/francisco/GNS3/projects/entregalab14/project-files/dynamips/8d2c5855-4ec3-444b-9afa-7d19578bbc68 
+May 19 14:30:57.665 GENERAL: working_dir=/home/francisco/GNS3/projects/entregalab14/project-files/dynamips/8d2c5855-4ec3-444b-9afa-7d19578bbc68
+May 19 14:30:57.666 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+May 19 14:30:57.666 VM: VM R2 created.
+May 19 14:30:57.667 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5007 
+May 19 14:30:57.667 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+May 19 14:30:57.667 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+May 19 14:30:57.668 HYPERVISOR: exec_cmd: vm get_status R2 
+May 19 14:30:57.669 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x602467a4 
+May 19 14:30:57.669 HYPERVISOR: exec_cmd: vm set_ios R2 /home/francisco/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+May 19 14:30:57.670 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+May 19 14:30:57.670 HYPERVISOR: exec_cmd: vm get_status R2 
+May 19 14:30:57.670 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+May 19 14:30:57.671 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-2T 
+May 19 14:30:57.672 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 32 WIC-2T 
+May 19 14:30:57.672 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5007 
+May 19 14:30:58.157 HYPERVISOR: exec_cmd: nio create_udp udp-00cf3113-284d-427d-b5e6-2db81671e8af 10036 127.0.0.1 10037 
+May 19 14:30:58.371 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-00cf3113-284d-427d-b5e6-2db81671e8af 
+May 19 14:30:58.371 HYPERVISOR: exec_cmd: vm get_status R2 
+May 19 14:30:58.530 HYPERVISOR: exec_cmd: nio create_udp udp-ca43317f-dee8-4f6e-97d6-fc9c28162564 10042 127.0.0.1 10043 
+May 19 14:30:58.531 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-ca43317f-dee8-4f6e-97d6-fc9c28162564 
+May 19 14:30:58.532 HYPERVISOR: exec_cmd: vm get_status R2 
